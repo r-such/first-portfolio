@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage{
+    background-color: #e4e3e6;
+    min-height: 80vh;
+    display: block;
+}
+.homepage nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6600CC;
+    color: white;
+    align-items: center;
+    padding: 0 2em;
+}
+.homepage nav ul{
+    display: flex;
+    /* padding: auto; */
+    list-style-type: none;
+}
+.homepage nav ul li{
+    padding: 0.1em 2em;
+}
